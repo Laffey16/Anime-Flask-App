@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    background-color: #e9ecef;
+    color: #343a40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styles */
+h1 {
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Navigation links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Add this new container style */
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* User input form */
+.user-input {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-input h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.user-input form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+    transition: border-color 0.3s;
+}
+
+
+.user-input input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

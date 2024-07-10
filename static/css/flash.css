@@ -1,0 +1,41 @@
+/* Flash Messages */
+.flash-messages {
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.flash-message {
+    padding: 8px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.flash-message.error {
+    color: #d9534f;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.flash-message.success {
+    color: #5cb85c;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.flash-message.info {
+    color: #5bc0de;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.flash-message.warning {
+    color: #f0ad4e;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
